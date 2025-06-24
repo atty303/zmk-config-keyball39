@@ -5,4 +5,4 @@ PCB: *[yangxing844](https://github.com/yangxing844)* <br>
 Case: *[delock](https://github.com/delock)* <br>
 Firmware: *[Amos698](https://github.com/Amos698)* <br>
 
-<img src="keymap-drawer/keyball39.svg" >
+<img src="https://raw.githubusercontent.com/atty303/zmk-config-keyball39/refs/heads/atty303/keymap-drawer/keyball39.svg" >
