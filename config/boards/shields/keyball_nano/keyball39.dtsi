@@ -12,7 +12,6 @@
         display-name = "Default";
         transform = <&default_transform>;
         kscan = <&kscan0>;
-        wakeup-source;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   38       0     0     0>
@@ -81,6 +80,7 @@
 			, <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
+        wakeup-source;
     };
 };    
 
