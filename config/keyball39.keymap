@@ -115,30 +115,30 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &none   &none   &none   &none                   &none   &none      &none  &none      &none
-&none   &none   &mo 6   &none   &none                   &none   &mkp LCLK  &mo 5  &mkp RCLK  &mkp MCLK
-&none   &none   &none   &none   &none                   &none   &mkp MB4   &none  &mkp MB5   &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                               &none
+&none   &none   &none   &none   &none                  &none   &none      &none  &none      &none
+&none   &none   &mo 6   &none   &none                  &none   &mkp LCLK  &mo 5  &mkp RCLK  &mkp MCLK
+&none   &none   &none   &none   &none                  &none   &mkp MB4   &none  &mkp MB5   &none
+&trans  &trans  &trans  &trans  &mo 4  &trans  &trans  &trans                               &none
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB4   &trans  &mkp MB5   &trans
+&trans  &trans  &trans  &trans  &mo 4   &trans  &trans  &trans                                &trans
             >;
         };
 
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB4   &trans  &mkp MB5   &trans
+&trans  &trans  &trans  &trans  &mo 4   &trans  &trans  &trans                                &trans
             >;
         };
     };
