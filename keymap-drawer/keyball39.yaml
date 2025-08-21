@@ -1,17 +1,17 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
+  - {t: Q, h: '!'}
+  - {t: W, h: '@'}
+  - {t: E, h: '#'}
+  - {t: R, h: $}
+  - {t: T, h: '%'}
+  - {t: Y, h: ^}
+  - {t: U, h: '&'}
+  - {t: I, h: '*'}
+  - {t: O, h: (}
+  - {t: P, h: )}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - S
   - D
   - F
@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -92,21 +92,21 @@ layers:
   - (
   - )
   - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ;, s: ':'}
   - {t: /, s: '?'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - ':'
   - '?'
   - '{'
